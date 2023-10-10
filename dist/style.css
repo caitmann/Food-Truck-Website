@@ -1,0 +1,141 @@
+.menu_title {
+  text-align: center;
+  width: 800px;
+  margin: 20px;
+}
+
+h1 {
+  font-family: cursive;
+  font-size: 72px;
+  margin: 40px 80px 40px 80px;
+  color: brown;
+}
+
+h2 {
+  font-family: helvetica;
+  font-size: 32px;
+  margin: 20px 40px 20px 40px;
+  color: orange;
+}
+
+h3 {
+  font-family: arial;
+  font-size: 24px;
+  margin: 20px;
+  color: orange;
+  text-align: center; /*was never told to center the text in the instructions, but I am doing so here just to match the example*/
+  width: 800px; /*to center on parent element "menu_title"*/
+}
+
+h4 {
+  font-family: arial;
+  font-size: 18px;
+  margin: 20px;
+  color: orangered;
+  text-align: center; /*was never told to center the text in the instructions, but I am doing so here just to match the example*/
+  width: 800px; /*to center on parent element "menu_title"*/
+}
+
+.menu-descriptions {
+  line-height: 0;
+  margin: 20px;
+  padding: 10px 0 10px 0;
+  text-align: center; /*was never told to center the text in the instructions, but I am doing so here just to match the example*/
+  width: 800px; /*to center on parent element "menu_title"*/
+}
+
+img {
+  
+}
+
+.gallery {
+  display: flex;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+.mathsfav {
+  height: 300px;
+  padding: 10px;
+}
+
+.socialmedia {
+  display: flex;
+  justify-content: center;
+}
+
+.smlogo {
+  height: 60px;
+  padding: 10px;
+}
+
+footer p {
+  text-align: center;
+}
+
+/*extra styling, never specified in instructions*/
+#backgroundimg {
+  background-image: url("https://res.cloudinary.com/programandoconmei/image/upload/v1695692863/OJT2/chef_ibnlhw.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+}
+
+nav {
+  background-color: brown;
+  height: 60px;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#aboutus {
+  width: 100%;
+}
+
+footer {
+  background-color: brown;
+  color: white;
+}
+
+#foodtruckicon {
+  width: 20%;
+  padding: 100px 40%;
+}
+
+#locationandhours {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+#steak {
+  height: 450px;
+  margin: 20px 0;
+}
+
+#landhtext {
+  padding: 0 150px 0 20px;
+  background-color: beige;
+  margin: 20px 0;
+}
+
+#landhtext ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.hours {
+  float: right;
+}
+
+/*to get the animations to work*/
+.hiddenonload {
+  opacity: 0;
+}
